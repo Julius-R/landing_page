@@ -1,0 +1,190 @@
+@import "https://fonts.googleapis.com/css?family=Comfortaa:300,400|Muli:300,400,700";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.logo {
+  font-family: "Comfortaa", cursive;
+  color: #f30e5c;
+  font-weight: 700;
+  font-size: 1.5em; }
+
+.gray {
+  color: #5c636e; }
+
+.bold {
+  font-size: 1.15em;
+  color: #1c1124;
+  font-weight: 700; }
+
+.numsec {
+  padding: 5em 0;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between; }
+  .numsec ul {
+    list-style: none;
+    display: flex; }
+    .numsec ul li {
+      margin: 0 2em; }
+
+body {
+  font-family: "Muli", sans-serif;
+  background: #fff;
+  color: #1c1124; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .row .col-1 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-2 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-3 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-4 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-5 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-6 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-7 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-8 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-9 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-10 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-11 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+  .row .col-12 {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 20px; }
+
+@media screen and (min-width: 672px) {
+  .row .col-1 {
+    width: calc(8.3333% - 1rem); }
+  .row .col-2 {
+    width: calc(16.6666% - 1rem); }
+  .row .col-3 {
+    width: calc(25% - 1rem); }
+  .row .col-4 {
+    width: calc(33.3333% - 1rem); }
+  .row .col-5 {
+    width: calc(41.6666% - 1rem); }
+  .row .col-6 {
+    width: calc(50% - 1rem); }
+  .row .col-7 {
+    width: calc(58.3333% - 1rem); }
+  .row .col-8 {
+    width: calc(66.6666% - 1rem); }
+  .row .col-9 {
+    width: calc(75% - 1rem); }
+  .row .col-10 {
+    width: calc(83.3333% - 1rem); }
+  .row .col-11 {
+    width: calc(91.6666% - 1rem); }
+  .row .col-12 {
+    width: calc(100% - 1rem); } }
+
+.navbar {
+  z-index: 2;
+  color: #fff;
+  padding: 50px 5em;
+  position: absolute;
+  width: 100%; }
+  .navbar .container {
+    display: flex;
+    justify-content: space-between; }
+    .navbar .container .navmenu {
+      display: flex;
+      list-style: none; }
+      .navbar .container .navmenu .navitem {
+        margin: 0 1em;
+        padding-bottom: 5px; }
+        .navbar .container .navmenu .navitem:hover {
+          border-bottom: 2px solid; }
+
+.hero {
+  color: #fff;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/hero.jpg");
+  background-position: center;
+  background-size: cover; }
+  .hero .container .herospecial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 300px 0; }
+    .hero .container .herospecial .herotext {
+      font-size: 5em; }
+    .hero .container .herospecial .right {
+      font-size: 1.25em;
+      transform: rotate(90deg);
+      transform-origin: top right;
+      margin-top: 300px; }
+  .hero .container .stickybox {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    padding: 5em; }
+    .hero .container .stickybox ul li {
+      display: inline-block; }
+      .hero .container .stickybox ul li:last-child {
+        padding: 0 5em; }
+
+.about {
+  padding-bottom: 5em; }
+  .about .info {
+    font-size: 2.35em;
+    font-weight: 700;
+    margin: 2em auto; }
+  .about .facts {
+    display: flex;
+    justify-content: space-between;
+    list-style: none; }
+    .about .facts li {
+      font-size: 1.2em; }
+      .about .facts li:last-child {
+        margin: 0 2em; }

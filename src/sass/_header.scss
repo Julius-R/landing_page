@@ -1,0 +1,75 @@
+.navbar {
+  z-index: 2;
+  color: #fff;
+  padding: 50px 5em;
+  position: absolute;
+  width: 100%;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .navmenu {
+      display: flex;
+      list-style: none;
+
+      .navitem {
+        margin: 0 1em;
+        padding-bottom: 5px;
+
+        &:hover {
+          border-bottom: 2px solid;
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  color: #fff;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../imgs/hero.jpg');
+  background-position: center;
+  background-size: cover;
+
+  .container  {
+
+    .herospecial {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 300px 0;
+
+      .herotext {
+        font-size: 5em;
+      }
+
+      .right {
+        font-size: 1.25em;
+        transform: rotate(90deg);
+        transform-origin: top right;
+        margin-top: 300px;
+      }
+
+    }
+
+    .stickybox {
+      background-color: #fff;
+      position: absolute;
+      left: 0;
+      bottom: 0px;
+      padding: 5em;
+
+      ul {
+
+        li {
+          display: inline-block;
+
+          &:last-child {
+            padding: 0 5em;
+          }
+        }
+      }
+    }
+  }
+}

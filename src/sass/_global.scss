@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+  font-family: $fancy;
+  color: #f30e5c;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.gray {
+  color: #5c636e;
+
+}
+
+.bold {
+  font-size: 1.15em;
+  color: #1c1124;
+  font-weight: 700;
+}
+
+.numsec {
+  padding: 5em 0;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin: 0 2em;
+    }
+  }
+}
+
+body {
+  font-family: $regular;
+  background: #fff;
+  color: #1c1124;
+}
